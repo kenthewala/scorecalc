@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     
-    <title>gurukul/gurukul/src/centre at master · kenthewala/gurukul</title>
+    <title>gurukul/gurukul/src/main/MainClass.java at master · kenthewala/gurukul</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
@@ -29,7 +29,7 @@
     <meta name="msapplication-TileImage" content="/windows-tile.png" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="selected-link" value="repo_source" data-pjax-transient />
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="B640418F:522C:117F3A2:5376297D" name="octolytics-dimension-request_id" /><meta content="7447069" name="octolytics-actor-id" /><meta content="kenthewala" name="octolytics-actor-login" /><meta content="2aafacd8a73cff1b54eb6217ccd8dbd745c8afd74e79818de0d7160fb875823e" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="B640403C:21F1:5455473:5376D12B" name="octolytics-dimension-request_id" /><meta content="7447069" name="octolytics-actor-id" /><meta content="kenthewala" name="octolytics-actor-login" /><meta content="2aafacd8a73cff1b54eb6217ccd8dbd745c8afd74e79818de0d7160fb875823e" name="octolytics-actor-hash" />
     
 
     
@@ -37,14 +37,14 @@
     <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico" />
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="GjBM8txaleedG2HcQC7gWN7spD7xJ1Wiunc4AdSYEh96WcRTKMZt+j1DbNu0QG1wCerBOfvHl4KNt7U5uRZEbw==" name="csrf-token" />
+<meta content="6YHjC5sn0sZwn3mmVE5leURvY4Ohp22XQsvt8rVnFnjrd3VoHpacaeAdJ0Gqnyivu2DYA4c9nWbFAbGJVVTo/g==" name="csrf-token" />
 
-    <link href="https://assets-cdn.github.com/assets/github-eccab071fd045f771dc8715979780dbb64f8fc64.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://assets-cdn.github.com/assets/github2-50bd4d5d683bdda80f061b5d079826bd642a2787.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github-c838cb45b3157387f845b3b8ed796a2ee1b7e188.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-f1b90f7f282c785da7cc267ec63b252cfdc1caaf.css" media="all" rel="stylesheet" type="text/css" />
     
 
 
-    <meta http-equiv="x-pjax-version" content="56f86638a907ad198e68b2e2a2c00415">
+    <meta http-equiv="x-pjax-version" content="619cb17a8cb8509d343a0b4ad8541aad">
 
       
   <meta name="description" content="Contribute to gurukul development by creating an account on GitHub." />
@@ -55,7 +55,7 @@
   </head>
 
 
-  <body class="logged_in  env-production linux vis-public">
+  <body class="logged_in  env-production linux vis-public page-blob">
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
     <div class="wrapper">
       
@@ -218,7 +218,7 @@
 <ul class="pagehead-actions">
 
     <li class="subscription">
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="o4pVtOP30pRK/Ae039qf5YTWsb40dHyjBmJwavmCd6Ulz959EHxZW0SwBkFwh/85gaTQSpWOcF4d2m3xvDHmiQ==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="19307780" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="eH5K/8dbQVmqFLdWJywBYDehSf54f65BYxlYyV64h4Rx2mlTyFUWGnsHb1WUGY3MLSnyUXfpAc+kXwIzySjhXA==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="19307780" />
 
     <div class="select-menu js-menu-container js-select-menu">
       <a class="social-count js-social-count" href="/kenthewala/gurukul/watchers">
@@ -293,7 +293,7 @@
 
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/kenthewala/gurukul/unstar" class="js-toggler-form starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="CxRmJiys04yog9d59GgaOTYKGq7Nqy9Fmm+Sp6RoM2AYMWGdFKeWWvYqx2fCJWGhGq3Uz8x70+mS49XZWK7GXQ==" /></div>
+    <form accept-charset="UTF-8" action="/kenthewala/gurukul/unstar" class="js-toggler-form starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="DXHkI/e49BWU5qbNtWvAz2NORuGoevjJwxeAeLO15FhXyiykIYoPm6BmQare63ylsIhnfV4VEf/b+k2DFFkOAw==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Unstar this repository" title="Unstar kenthewala/gurukul">
@@ -303,7 +303,7 @@
           0
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/kenthewala/gurukul/star" class="js-toggler-form unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="onsqhBi1r78yV1VnZvJRBbX76ZlnBphLumatbA0W0nnyug+lAqGdNJM/vqlzQYNg4H6g5rgShWWt0w8/Ghd+VQ==" /></div>
+    <form accept-charset="UTF-8" action="/kenthewala/gurukul/star" class="js-toggler-form unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="F5v2uHcGcnbvxSqrm58XXq379QVK4JV8uDpY1DkJsmsiYpbZCihcHxdgk+H6Um1gTuH+uSGAe4ROwVZsQlcAqw==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Star this repository" title="Star kenthewala/gurukul">
@@ -487,6 +487,15 @@
         <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
           
 
+
+<a href="/kenthewala/gurukul/blob/57fc35090a81e6141ca377654e4413e89f293fff/gurukul/src/main/MainClass.java" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:bd3dd14f834f213b55ec0321dd68989b -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/kenthewala/gurukul/find/master" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
 <div class="file-navigation">
   
 
@@ -531,7 +540,7 @@
 
             <div class="select-menu-item js-navigation-item selected">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/kenthewala/gurukul/tree/master/gurukul/src/centre"
+              <a href="/kenthewala/gurukul/blob/master/gurukul/src/main/MainClass.java"
                  data-name="master"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -540,7 +549,7 @@
             </div> <!-- /.select-menu-item -->
         </div>
 
-          <form accept-charset="UTF-8" action="/kenthewala/gurukul/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tCpQ1CWB/HpTjrKEaJw+kqFwq4TTrU5uMrqONoQyvGydrbFvoBmRgg2g9Gbfw9SWuvWmkuBMBDWe8DAN4OdLxA==" /></div>
+          <form accept-charset="UTF-8" action="/kenthewala/gurukul/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="AGfIsEGWvispuMpAeJvFGQKQZhlK5ln57iqK2q8yeMB0eQdo9wXmYLeOrLbsFkKEIlovEA5hBY0YhdlAxISN8w==" /></div>
             <span class="octicon octicon-git-branch-create select-menu-item-icon"></span>
             <div class="select-menu-item-text">
               <h4>Create branch: <span class="js-new-item-name"></span></h4>
@@ -548,7 +557,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master" />
-            <input type="hidden" name="path" id="path" value="gurukul/src/centre" />
+            <input type="hidden" name="path" id="path" value="gurukul/src/main/MainClass.java" />
           </form> <!-- /.select-menu-item -->
 
       </div> <!-- /.select-menu-list -->
@@ -566,71 +575,83 @@
   </div> <!-- /.select-menu-modal-holder -->
 </div> <!-- /.select-menu -->
 
-  <p class="history-link">
-    <a href="/kenthewala/gurukul/commits/master/gurukul/src/centre">
-      <span class="tooltipped tooltipped-s" aria-label="Browse commits for this branch"><span class="octicon octicon-history"></span></span>
-      History
-</a>  </p>
-
-  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul/src" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">src</span></a></span><span class="separator"> / </span><strong class="final-path">centre</strong><span class="separator"> / </span><form action="/kenthewala/gurukul/new/master/gurukul/src/centre" aria-label="Create a new file here" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Create a new file here" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
-
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul/src" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">src</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul/src/main" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">main</span></a></span><span class="separator"> / </span><strong class="final-path">MainClass.java</strong> <button aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="gurukul/src/main/MainClass.java" data-copied-hint="copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+  </div>
 </div>
 
 
+  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/kenthewala/gurukul/contributors/master/gurukul/src/main/MainClass.java">
+    Fetching contributors…
 
-<a href="/kenthewala/gurukul/find/master"
-  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
-
-
-  
-    <div class="commit commit-loader commit-tease js-details-container js-deferred-content" data-url="/kenthewala/gurukul/tree-commit/master/gurukul/src/centre">
-      <p class="commit-title blank">
-        Fetching latest commit…
-      </p>
-      <div class="commit-meta">
-        <p class="loader-loading"><img alt="Octocat-spinner-32-eaf2f5" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
-        <p class="loader-error">Cannot retrieve the latest commit at this time</p>
-      </div>
+    <div class="participation">
+      <p class="loader-loading"><img alt="Octocat-spinner-32-eaf2f5" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
+      <p class="loader-error">Cannot retrieve contributors at this time</p>
     </div>
-
-  <div class="file-wrap">
-    <table class="files" data-pjax>
-        <tr class="up-tree">
-          <td></td>
-          <td><a href="/kenthewala/gurukul/tree/master/gurukul/src" rel="nofollow" title="Go to parent directory">..</a></td>
-          <td></td>
-          <td></td>
-        </tr>
-
-      
-<tbody class="js-deferred-content"
-  data-url="/kenthewala/gurukul/file-list/master/gurukul/src/centre"
-  data-deferred-content-error="Failed to load latest commit information.">
-    <tr>
-      <td class="icon">
-        <span class="octicon octicon-file-text"></span>
-        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-      </td>
-      <td class="content">
-        <span class="css-truncate css-truncate-target"><a href="/kenthewala/gurukul/blob/master/gurukul/src/centre/Centre.java" class="js-directory-link" id="e0b1ad99cb1198fc0c86d3c54806362c-32d2c7c4e2e949c74145bdb17d57f960f5bd9254" title="Centre.java">Centre.java</a></span>
-      </td>
-      <td class="message">
-        <span class="css-truncate css-truncate-target js-deferred-content-error">
-          
-        </span>
-      </td>
-      <td class="age">
-        <span class="css-truncate css-truncate-target"></span>
-      </td>
-    </tr>
-</tbody>
-
-    </table>
   </div>
 
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+        <span class="meta-divider"></span>
+          <span>13 lines (8 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>0.223 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+                <a class="minibutton js-update-url-with-hash"
+                   href="/kenthewala/gurukul/edit/master/gurukul/src/main/MainClass.java"
+                   data-method="post" rel="nofollow" data-hotkey="e">Edit</a>
+          <a href="/kenthewala/gurukul/raw/master/gurukul/src/main/MainClass.java" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/kenthewala/gurukul/blame/master/gurukul/src/main/MainClass.java" class="button minibutton js-update-url-with-hash">Blame</a>
+          <a href="/kenthewala/gurukul/commits/master/gurukul/src/main/MainClass.java" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
 
-  
+            <a class="minibutton danger empty-icon"
+               href="/kenthewala/gurukul/delete/master/gurukul/src/main/MainClass.java"
+               data-method="post" data-test-id="delete-blob-file" rel="nofollow">
 
+          Delete
+        </a>
+      </div><!-- /.actions -->
+    </div>
+        <div class="blob-wrapper data type-java js-blob-data">
+        <table class="file-code file-diff tab-size-8">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+<span id="L2" rel="#L2">2</span>
+<span id="L3" rel="#L3">3</span>
+<span id="L4" rel="#L4">4</span>
+<span id="L5" rel="#L5">5</span>
+<span id="L6" rel="#L6">6</span>
+<span id="L7" rel="#L7">7</span>
+<span id="L8" rel="#L8">8</span>
+<span id="L9" rel="#L9">9</span>
+<span id="L10" rel="#L10">10</span>
+<span id="L11" rel="#L11">11</span>
+<span id="L12" rel="#L12">12</span>
+
+            </td>
+            <td class="blob-line-code"><div class="code-body highlight"><pre><div class='line' id='LC1'><span class="kn">package</span> <span class="n">main</span><span class="o">;</span></div><div class='line' id='LC2'><br/></div><div class='line' id='LC3'><span class="kn">import</span> <span class="nn">dao.GurukulDAO</span><span class="o">;</span></div><div class='line' id='LC4'><br/></div><div class='line' id='LC5'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainClass</span> <span class="o">{</span></div><div class='line' id='LC6'><br/></div><div class='line' id='LC7'>	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">s</span><span class="o">[]){</span></div><div class='line' id='LC8'>		<span class="n">GurukulDAO</span> <span class="n">gurukulDAO</span> <span class="o">=</span> <span class="k">new</span> <span class="n">GurukulDAO</span><span class="o">();</span></div><div class='line' id='LC9'>		<span class="n">gurukulDAO</span><span class="o">.</span><span class="na">saveCentre</span><span class="o">(</span><span class="s">&quot;BajajNagar&quot;</span><span class="o">,</span> <span class="s">&quot;Flat no. 5&quot;</span><span class="o">,</span> <span class="s">&quot;Head Office&quot;</span><span class="o">);</span></div><div class='line' id='LC10'>	<span class="o">}</span></div><div class='line' id='LC11'><br/></div><div class='line' id='LC12'><span class="o">}</span></div></pre></div></td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
 
         </div>
 
@@ -659,7 +680,7 @@
     </a>
 
     <ul class="site-footer-links">
-      <li>&copy; 2014 <span title="0.04206s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2014 <span title="0.04798s from github-fe118-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="/site/terms">Terms</a></li>
         <li><a href="/site/privacy">Privacy</a></li>
         <li><a href="/security">Security</a></li>
@@ -695,8 +716,8 @@
     </div>
 
 
-      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-5a921ce2c45d4a5235b8f9c5c716611df0a83a79.js" type="text/javascript"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-8433b2222746cb6b0612174c45ef4b10522ff40c.js" type="text/javascript"></script>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-d556644b4638d7d08025b994fbb1b963da97b334.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-121907d61fd53bd43b96bafb8ce4e1adedc740aa.js" type="text/javascript"></script>
       
       
   </body>

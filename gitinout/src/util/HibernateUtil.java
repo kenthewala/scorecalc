@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     
-    <title>gurukul/gurukul/src/util at master · kenthewala/gurukul</title>
+    <title>gurukul/gurukul/src/util/HibernateUtil.java at master · kenthewala/gurukul</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
@@ -29,7 +29,7 @@
     <meta name="msapplication-TileImage" content="/windows-tile.png" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="selected-link" value="repo_source" data-pjax-transient />
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="B640418F:522A:32C7A65:537629B1" name="octolytics-dimension-request_id" /><meta content="7447069" name="octolytics-actor-id" /><meta content="kenthewala" name="octolytics-actor-login" /><meta content="2aafacd8a73cff1b54eb6217ccd8dbd745c8afd74e79818de0d7160fb875823e" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="B640403C:21EE:2180781:5376D13D" name="octolytics-dimension-request_id" /><meta content="7447069" name="octolytics-actor-id" /><meta content="kenthewala" name="octolytics-actor-login" /><meta content="2aafacd8a73cff1b54eb6217ccd8dbd745c8afd74e79818de0d7160fb875823e" name="octolytics-actor-hash" />
     
 
     
@@ -37,14 +37,14 @@
     <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico" />
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="4f+mLfgI68MeI3kfllHYegJoWj7P1FUdWsNukdTmsZ3ZS8Nc6/yltyTIr1otwIN3p5jZ6ZWY9C8W6GJe8bTXlg==" name="csrf-token" />
+<meta content="K75EFxbBbdGDT3nDsxZE5i/+7c9I3WXa5+KPoDT7rtCei5MbsfWcWMmz+m11OnV/AErWToqYHHc4mwBHtOwufw==" name="csrf-token" />
 
-    <link href="https://assets-cdn.github.com/assets/github-eccab071fd045f771dc8715979780dbb64f8fc64.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://assets-cdn.github.com/assets/github2-50bd4d5d683bdda80f061b5d079826bd642a2787.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github-c838cb45b3157387f845b3b8ed796a2ee1b7e188.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-f1b90f7f282c785da7cc267ec63b252cfdc1caaf.css" media="all" rel="stylesheet" type="text/css" />
     
 
 
-    <meta http-equiv="x-pjax-version" content="56f86638a907ad198e68b2e2a2c00415">
+    <meta http-equiv="x-pjax-version" content="619cb17a8cb8509d343a0b4ad8541aad">
 
       
   <meta name="description" content="Contribute to gurukul development by creating an account on GitHub." />
@@ -55,7 +55,7 @@
   </head>
 
 
-  <body class="logged_in  env-production linux vis-public">
+  <body class="logged_in  env-production linux vis-public page-blob">
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
     <div class="wrapper">
       
@@ -218,7 +218,7 @@
 <ul class="pagehead-actions">
 
     <li class="subscription">
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="0LsPRaBx63APKUQz1+p7wDxyc6S8VeT0iMhLzhuOd1sgWOz+EhM1FQMQn3/5DzJPqz4TB4OJXVl/sdDylY7elQ==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="19307780" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="I+3Au6z6azuyrbmmGXxmQvuEw+6gwrm0pWQc0TL7Ywi8r7enpSGIfFiIDStJaX8KCAPb130UcrgojZDMcw5Isg==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="19307780" />
 
     <div class="select-menu js-menu-container js-select-menu">
       <a class="social-count js-social-count" href="/kenthewala/gurukul/watchers">
@@ -293,7 +293,7 @@
 
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/kenthewala/gurukul/unstar" class="js-toggler-form starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="/YBUXHiWTQHBAeqXZuSqwqW3OjgiUwKdqYLDpo1hWcM0rei5FO3MqOg9CzGV+5CbTdPFJHFN1gXkyzSoT5faYw==" /></div>
+    <form accept-charset="UTF-8" action="/kenthewala/gurukul/unstar" class="js-toggler-form starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="XvXcm0F/Qo1br/k9uGMpP2vcQWjd3n726TaFQ/iQJEs0vWZI+qHkstfAs4l+JhAXF8A5sg5lwO/NnFGjcZ9k9Q==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Unstar this repository" title="Unstar kenthewala/gurukul">
@@ -303,7 +303,7 @@
           0
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/kenthewala/gurukul/star" class="js-toggler-form unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="391UPlRgS7lcEljVxX7i53hyGulqhJ8JGtQTs7vN7kV46qzn9bUgf0fY2dDIXNPpXyefCfZZYs6OHkRMDp16Ug==" /></div>
+    <form accept-charset="UTF-8" action="/kenthewala/gurukul/star" class="js-toggler-form unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="Q0LZYzmSR8RCh8UuPYvLCvk9rezdzUclPVObXgprcCc4IBgQKdChAt7cYqONmgY6xPixxxvWwdWhymfmsDZv2g==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Star this repository" title="Star kenthewala/gurukul">
@@ -487,6 +487,15 @@
         <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
           
 
+
+<a href="/kenthewala/gurukul/blob/57fc35090a81e6141ca377654e4413e89f293fff/gurukul/src/util/HibernateUtil.java" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:a73f1f29bccc9c68ff0bf1dea0e02a02 -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/kenthewala/gurukul/find/master" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
 <div class="file-navigation">
   
 
@@ -531,7 +540,7 @@
 
             <div class="select-menu-item js-navigation-item selected">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/kenthewala/gurukul/tree/master/gurukul/src/util"
+              <a href="/kenthewala/gurukul/blob/master/gurukul/src/util/HibernateUtil.java"
                  data-name="master"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -540,7 +549,7 @@
             </div> <!-- /.select-menu-item -->
         </div>
 
-          <form accept-charset="UTF-8" action="/kenthewala/gurukul/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="L1CrKRhHOVU0kR93Qltet6TPMIQDOW1zFAybqmWmcQus1tnrvsnM4P1Spw57n+UlbeBh6M7Ga2XUpXCUojr/QA==" /></div>
+          <form accept-charset="UTF-8" action="/kenthewala/gurukul/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="B/gCpWJF3OlQlz3YC6NgP4FwH2AxFkB5GrrZd/j7fYdzvTv6wDL36GFNyuRFqRxd8C69flvrCp9ZlmVQ9tGKdg==" /></div>
             <span class="octicon octicon-git-branch-create select-menu-item-icon"></span>
             <div class="select-menu-item-text">
               <h4>Create branch: <span class="js-new-item-name"></span></h4>
@@ -548,7 +557,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master" />
-            <input type="hidden" name="path" id="path" value="gurukul/src/util" />
+            <input type="hidden" name="path" id="path" value="gurukul/src/util/HibernateUtil.java" />
           </form> <!-- /.select-menu-item -->
 
       </div> <!-- /.select-menu-list -->
@@ -566,71 +575,118 @@
   </div> <!-- /.select-menu-modal-holder -->
 </div> <!-- /.select-menu -->
 
-  <p class="history-link">
-    <a href="/kenthewala/gurukul/commits/master/gurukul/src/util">
-      <span class="tooltipped tooltipped-s" aria-label="Browse commits for this branch"><span class="octicon octicon-history"></span></span>
-      History
-</a>  </p>
-
-  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul/src" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">src</span></a></span><span class="separator"> / </span><strong class="final-path">util</strong><span class="separator"> / </span><form action="/kenthewala/gurukul/new/master/gurukul/src/util" aria-label="Create a new file here" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Create a new file here" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
-
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gurukul</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul/src" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">src</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kenthewala/gurukul/tree/master/gurukul/src/util" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">util</span></a></span><span class="separator"> / </span><strong class="final-path">HibernateUtil.java</strong> <button aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="gurukul/src/util/HibernateUtil.java" data-copied-hint="copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+  </div>
 </div>
 
 
+  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/kenthewala/gurukul/contributors/master/gurukul/src/util/HibernateUtil.java">
+    Fetching contributors…
 
-<a href="/kenthewala/gurukul/find/master"
-  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
-
-
-  
-    <div class="commit commit-loader commit-tease js-details-container js-deferred-content" data-url="/kenthewala/gurukul/tree-commit/master/gurukul/src/util">
-      <p class="commit-title blank">
-        Fetching latest commit…
-      </p>
-      <div class="commit-meta">
-        <p class="loader-loading"><img alt="Octocat-spinner-32-eaf2f5" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
-        <p class="loader-error">Cannot retrieve the latest commit at this time</p>
-      </div>
+    <div class="participation">
+      <p class="loader-loading"><img alt="Octocat-spinner-32-eaf2f5" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
+      <p class="loader-error">Cannot retrieve contributors at this time</p>
     </div>
-
-  <div class="file-wrap">
-    <table class="files" data-pjax>
-        <tr class="up-tree">
-          <td></td>
-          <td><a href="/kenthewala/gurukul/tree/master/gurukul/src" rel="nofollow" title="Go to parent directory">..</a></td>
-          <td></td>
-          <td></td>
-        </tr>
-
-      
-<tbody class="js-deferred-content"
-  data-url="/kenthewala/gurukul/file-list/master/gurukul/src/util"
-  data-deferred-content-error="Failed to load latest commit information.">
-    <tr>
-      <td class="icon">
-        <span class="octicon octicon-file-text"></span>
-        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-      </td>
-      <td class="content">
-        <span class="css-truncate css-truncate-target"><a href="/kenthewala/gurukul/blob/master/gurukul/src/util/HibernateUtil.java" class="js-directory-link" id="8244533a1b1f10c96bfcef0ced280e45-3bbf265fd00bbb85ed74460615b033a231de0ca0" title="HibernateUtil.java">HibernateUtil.java</a></span>
-      </td>
-      <td class="message">
-        <span class="css-truncate css-truncate-target js-deferred-content-error">
-          
-        </span>
-      </td>
-      <td class="age">
-        <span class="css-truncate css-truncate-target"></span>
-      </td>
-    </tr>
-</tbody>
-
-    </table>
   </div>
 
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+        <span class="meta-divider"></span>
+          <span>48 lines (37 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>0.984 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+                <a class="minibutton js-update-url-with-hash"
+                   href="/kenthewala/gurukul/edit/master/gurukul/src/util/HibernateUtil.java"
+                   data-method="post" rel="nofollow" data-hotkey="e">Edit</a>
+          <a href="/kenthewala/gurukul/raw/master/gurukul/src/util/HibernateUtil.java" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/kenthewala/gurukul/blame/master/gurukul/src/util/HibernateUtil.java" class="button minibutton js-update-url-with-hash">Blame</a>
+          <a href="/kenthewala/gurukul/commits/master/gurukul/src/util/HibernateUtil.java" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
 
-  
+            <a class="minibutton danger empty-icon"
+               href="/kenthewala/gurukul/delete/master/gurukul/src/util/HibernateUtil.java"
+               data-method="post" data-test-id="delete-blob-file" rel="nofollow">
 
+          Delete
+        </a>
+      </div><!-- /.actions -->
+    </div>
+        <div class="blob-wrapper data type-java js-blob-data">
+        <table class="file-code file-diff tab-size-8">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+<span id="L2" rel="#L2">2</span>
+<span id="L3" rel="#L3">3</span>
+<span id="L4" rel="#L4">4</span>
+<span id="L5" rel="#L5">5</span>
+<span id="L6" rel="#L6">6</span>
+<span id="L7" rel="#L7">7</span>
+<span id="L8" rel="#L8">8</span>
+<span id="L9" rel="#L9">9</span>
+<span id="L10" rel="#L10">10</span>
+<span id="L11" rel="#L11">11</span>
+<span id="L12" rel="#L12">12</span>
+<span id="L13" rel="#L13">13</span>
+<span id="L14" rel="#L14">14</span>
+<span id="L15" rel="#L15">15</span>
+<span id="L16" rel="#L16">16</span>
+<span id="L17" rel="#L17">17</span>
+<span id="L18" rel="#L18">18</span>
+<span id="L19" rel="#L19">19</span>
+<span id="L20" rel="#L20">20</span>
+<span id="L21" rel="#L21">21</span>
+<span id="L22" rel="#L22">22</span>
+<span id="L23" rel="#L23">23</span>
+<span id="L24" rel="#L24">24</span>
+<span id="L25" rel="#L25">25</span>
+<span id="L26" rel="#L26">26</span>
+<span id="L27" rel="#L27">27</span>
+<span id="L28" rel="#L28">28</span>
+<span id="L29" rel="#L29">29</span>
+<span id="L30" rel="#L30">30</span>
+<span id="L31" rel="#L31">31</span>
+<span id="L32" rel="#L32">32</span>
+<span id="L33" rel="#L33">33</span>
+<span id="L34" rel="#L34">34</span>
+<span id="L35" rel="#L35">35</span>
+<span id="L36" rel="#L36">36</span>
+<span id="L37" rel="#L37">37</span>
+<span id="L38" rel="#L38">38</span>
+<span id="L39" rel="#L39">39</span>
+<span id="L40" rel="#L40">40</span>
+<span id="L41" rel="#L41">41</span>
+<span id="L42" rel="#L42">42</span>
+<span id="L43" rel="#L43">43</span>
+<span id="L44" rel="#L44">44</span>
+<span id="L45" rel="#L45">45</span>
+<span id="L46" rel="#L46">46</span>
+<span id="L47" rel="#L47">47</span>
+
+            </td>
+            <td class="blob-line-code"><div class="code-body highlight"><pre><div class='line' id='LC1'><span class="cm">/**</span></div><div class='line' id='LC2'><span class="cm"> * </span></div><div class='line' id='LC3'><span class="cm"> */</span></div><div class='line' id='LC4'><span class="kn">package</span> <span class="n">util</span><span class="o">;</span></div><div class='line' id='LC5'><br/></div><div class='line' id='LC6'><span class="kn">import</span> <span class="nn">javax.persistence.EntityManager</span><span class="o">;</span></div><div class='line' id='LC7'><span class="kn">import</span> <span class="nn">javax.persistence.EntityManagerFactory</span><span class="o">;</span></div><div class='line' id='LC8'><span class="kn">import</span> <span class="nn">javax.persistence.Persistence</span><span class="o">;</span></div><div class='line' id='LC9'><br/></div><div class='line' id='LC10'><span class="kn">import</span> <span class="nn">org.hibernate.SessionFactory</span><span class="o">;</span></div><div class='line' id='LC11'><span class="kn">import</span> <span class="nn">org.hibernate.cfg.AnnotationConfiguration</span><span class="o">;</span></div><div class='line' id='LC12'><br/></div><div class='line' id='LC13'><span class="kn">import</span> <span class="nn">centre.Centre</span><span class="o">;</span></div><div class='line' id='LC14'><br/></div><div class='line' id='LC15'><span class="cm">/**</span></div><div class='line' id='LC16'><span class="cm"> * @author anoop</span></div><div class='line' id='LC17'><span class="cm"> * </span></div><div class='line' id='LC18'><span class="cm"> */</span></div><div class='line' id='LC19'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HibernateUtil</span> <span class="o">{</span></div><div class='line' id='LC20'>	<span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">SessionFactory</span> <span class="n">sessionFactory</span><span class="o">;</span></div><div class='line' id='LC21'>	<span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">EntityManager</span> <span class="n">em</span><span class="o">;</span></div><div class='line' id='LC22'><br/></div><div class='line' id='LC23'>	<span class="kd">static</span> <span class="o">{</span></div><div class='line' id='LC24'>		<span class="k">try</span> <span class="o">{</span></div><div class='line' id='LC25'>			<span class="n">sessionFactory</span> <span class="o">=</span> <span class="k">new</span> <span class="n">AnnotationConfiguration</span><span class="o">().</span><span class="na">configure</span><span class="o">().</span><span class="na">addClass</span><span class="o">(</span><span class="n">Centre</span><span class="o">.</span><span class="na">class</span><span class="o">).</span><span class="na">buildSessionFactory</span><span class="o">();</span></div><div class='line' id='LC26'><br/></div><div class='line' id='LC27'>			<span class="n">EntityManagerFactory</span> <span class="n">emf</span> <span class="o">=</span> <span class="n">Persistence</span><span class="o">.</span><span class="na">createEntityManagerFactory</span><span class="o">(</span><span class="s">&quot;gurukul&quot;</span><span class="o">);</span></div><div class='line' id='LC28'>			<span class="n">em</span> <span class="o">=</span> <span class="n">emf</span><span class="o">.</span><span class="na">createEntityManager</span><span class="o">();</span></div><div class='line' id='LC29'><br/></div><div class='line' id='LC30'>		<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Throwable</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC31'>			<span class="n">System</span><span class="o">.</span><span class="na">err</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Initial SessionFactory creation failed.&quot;</span> <span class="o">+</span> <span class="n">ex</span><span class="o">);</span></div><div class='line' id='LC32'>			<span class="k">throw</span> <span class="k">new</span> <span class="nf">ExceptionInInitializerError</span><span class="o">(</span><span class="n">ex</span><span class="o">);</span></div><div class='line' id='LC33'>		<span class="o">}</span></div><div class='line' id='LC34'>	<span class="o">}</span></div><div class='line' id='LC35'><br/></div><div class='line' id='LC36'>	<span class="kd">public</span> <span class="kd">static</span> <span class="n">SessionFactory</span> <span class="nf">getSessionFactory</span><span class="o">()</span> <span class="o">{</span></div><div class='line' id='LC37'>		<span class="k">return</span> <span class="n">sessionFactory</span><span class="o">;</span></div><div class='line' id='LC38'>	<span class="o">}</span></div><div class='line' id='LC39'><br/></div><div class='line' id='LC40'>	<span class="cm">/**</span></div><div class='line' id='LC41'><span class="cm">	 * @return the em</span></div><div class='line' id='LC42'><span class="cm">	 */</span></div><div class='line' id='LC43'>	<span class="kd">public</span> <span class="kd">static</span> <span class="n">EntityManager</span> <span class="nf">getEm</span><span class="o">()</span> <span class="o">{</span></div><div class='line' id='LC44'>		<span class="k">return</span> <span class="n">em</span><span class="o">;</span></div><div class='line' id='LC45'>	<span class="o">}</span></div><div class='line' id='LC46'><br/></div><div class='line' id='LC47'><span class="o">}</span></div></pre></div></td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
 
         </div>
 
@@ -659,7 +715,7 @@
     </a>
 
     <ul class="site-footer-links">
-      <li>&copy; 2014 <span title="0.04103s from github-fe133-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2014 <span title="0.04911s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="/site/terms">Terms</a></li>
         <li><a href="/site/privacy">Privacy</a></li>
         <li><a href="/security">Security</a></li>
@@ -695,8 +751,8 @@
     </div>
 
 
-      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-5a921ce2c45d4a5235b8f9c5c716611df0a83a79.js" type="text/javascript"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-8433b2222746cb6b0612174c45ef4b10522ff40c.js" type="text/javascript"></script>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-d556644b4638d7d08025b994fbb1b963da97b334.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-121907d61fd53bd43b96bafb8ce4e1adedc740aa.js" type="text/javascript"></script>
       
       
   </body>
