@@ -6,7 +6,10 @@ public class MainClass {
 
 public static void main(String s[]){
 GurukulDAO gurukulDAO = new GurukulDAO();
-gurukulDAO.saveCentre("Pratap Nagar", "Ambabadi1", "Branch Office");
+
+//insert centre
+//gurukulDAO.saveCentre("Bajaj Nagar", "Flat no. 5, JDA Shopping Centre, Bajaj Nagar, Jaipur", "Head Office");
+//gurukulDAO.saveCentre("Ambabadi", "Ambabadi", "Branch office");
 }
 
 }
