@@ -1,0 +1,8 @@
+package enums;
+
+public enum PhoneType {
+	STUDENT_MOBILE,
+	STUDENT_PARENT_MOBILE,
+	STUDENT_HOME,
+	IN_CASE_OF_EMERGENCY
+}

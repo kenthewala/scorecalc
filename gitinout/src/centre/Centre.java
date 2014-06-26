@@ -3,13 +3,18 @@
 */
 package centre;
 
+import java.util.List;
+
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.TableGenerator;
+
+import programme.Programme;
 
 /**
 * @author anoop
@@ -27,12 +32,15 @@ valueColumnName="gen_val",
 initialValue=1,
 allocationSize=1)
 private int id;
+
 private String name;
 private String address;
+
 @Basic(fetch=FetchType.LAZY)
 private String comments;
 
-
+@OneToMany(targetEntity=Programme.class, mappedBy="centre")
+private List<Programme> programmes;
 /**
 * @return the id
 */
@@ -82,6 +90,7 @@ return comments;
 public void setComments(String comments) {
 this.comments = comments;
 }
+
 /* (non-Javadoc)
  * @see java.lang.Object#hashCode()
  */
@@ -125,6 +134,18 @@ public boolean equals(Object obj) {
 	} else if (!name.equals(other.name))
 		return false;
 	return true;
+}
+/**
+ * @return the programmes
+ */
+public List<Programme> getProgrammes() {
+	return programmes;
+}
+/**
+ * @param programmes the programmes to set
+ */
+public void setProgrammes(List<Programme> programmes) {
+	this.programmes = programmes;
 }
 
 

@@ -4,6 +4,7 @@
 package programme;
 
 import java.sql.Date;
+import java.util.List;
 
 import javax.persistence.Access;
 import javax.persistence.AccessType;
@@ -14,10 +15,15 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Transient;
 
+import student.Student;
 import centre.Centre;
 import enums.ProgrammeType;
+
 
 /**
  * @author anoop
@@ -33,6 +39,9 @@ public class Programme {
 	
 	@Transient private String name;
 	private int year;
+	
+	@ManyToOne
+	@JoinColumn(name="centre_id")
 	private Centre centre;
 	
 	@Column(name="course_duration")
@@ -43,6 +52,9 @@ public class Programme {
 	//example of enumerated type ordinal
 	@Enumerated(EnumType.ORDINAL)
 	private ProgrammeType type;
+	
+	@OneToMany(mappedBy="programme")
+	private List<Student> students;
 	
 	/**
 	 * @return the id
